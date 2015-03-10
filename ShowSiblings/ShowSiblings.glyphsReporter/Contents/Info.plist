@@ -25,7 +25,7 @@
 	<key>UpdateFeedURL</key>
 	<string>com.ShowSiblings.de</string>
 	<key>productPageURL</key>
-	<string>www.mirque.de</string>
+	<string>https://github.com/DeutschMark/Glyphsapp-Plugins/tree/master/ShowSiblings</string>
 	<key>productReleaseNotes</key>
 	<string>nothing</string>
 	<key>LSHasLocalizedDisplayName</key>
