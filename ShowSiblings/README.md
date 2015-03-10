@@ -4,6 +4,10 @@
 
 This is a Plugin for the [Glyphs font editor](http://glyphsapp.com/). It displays a group of predefined glyphs in the background of your letters. This can be both pretty helpful in the beginning of a design as well as at intermediate progress where quick proof overview is needed. The degree of a desired match depends on each design, of course.
 
+### How to use
+
+copy the `ShowSiblings.glyphsReporter` into your Glyphsapp Plugins folder (eg. `/Library/Application\ Support/Glyphs/Plugins`), restart Glyphs and when ever you need it, toggle `Show Siblings` from the view menu.
+
 ### Default groups
 
 The default groups are as follows and can be customized in the `Contents/Resources/ShowSiblings.py`, search for the *defaultSiblings* dictionary.
@@ -24,8 +28,14 @@ K V X Y
 
 ### Examples
 
-- screenshots
-- live video
+![Show Siblings Shequalin Demo](https://github.com/DeutschMark/Glyphsapp-Plugins/blob/Screenshots/ShowSiblings/Screenshots/ScreenShotCompiled_600px.jpg?raw=true "Show Siblings Shequalin Demo")
+
+
+live video comming ...
+
+### Known issues
+
+- works only with the first master so far
 
 ### Pull Requests
 
