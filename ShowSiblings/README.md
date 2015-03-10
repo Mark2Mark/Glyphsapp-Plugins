@@ -30,6 +30,8 @@ K V X Y
 
 ![Show Siblings Shequalin Demo](https://github.com/DeutschMark/Glyphsapp-Plugins/blob/Screenshots/ShowSiblings/Screenshots/ShowSiblings Shequalin DeutschMark.jpg?raw=true "Show Siblings Shequalin Demo")
 
+![Show Siblings live Demo](https://github.com/DeutschMark/Glyphsapp-Plugins/blob/Screenshots/ShowSiblings/Screenshots/screencapDemoFont.gif?raw=true "Show Siblings live Demo")
+
 
 ### Known issues
 
