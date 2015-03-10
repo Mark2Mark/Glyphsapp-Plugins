@@ -104,39 +104,12 @@ class ShowSiblings ( NSObject, GlyphsReporterProtocol ):
 			pass
 		except Exception as e:
 			self.logToConsole( "drawForegroundForLayer_: %s" % str(e) )
-	
-	def drawGlyphInLabelColor( self, Layer ):
-		try:
-			try:
-				thisColor = Layer.layerColor()
-				if not thisColor:
-					raise thisColor # no layerColor set (Glyphs 2)
-			except:
-				# Glyphs 1.x or no layerColor:
-				thisColor = Layer.parent.valueForKey_("color")
-			
-			thisColor.set()
-
-			thisBezierPath = Layer.copyDecomposedLayer().bezierPath()
-			if thisBezierPath:
-				thisBezierPath.setLineWidth_( 3/self.getScale() )
-				thisBezierPath.stroke()
-		except Exception as e:
-			self.logToConsole( "drawGlyphInLabelColor: %s" % str(e) )
-
-
-
-	
+		
 	def drawSibling( self, Layer ):
-
-		'''
-		getting the Font Components
-		'''
 		Glyph = Layer.parent
 		Font = Glyph.parent
 		thisMaster = Font.selectedFontMaster
 
-		## 1) Make use of Masters somehow
 		currentGlyphName = Glyph.name
 		
 		defaultSiblings = {
