@@ -7,6 +7,7 @@ This is a Plugin for the [Glyphs font editor](http://glyphsapp.com/). It display
 ### Default groups
 
 The default groups are as follows and can be customized in the `Contents/Resources/ShowSiblings.py`, search for the *defaultSiblings* dictionary.
+```
 c e o
 b p
 d q
@@ -19,6 +20,7 @@ B D P R
 C G O Q
 H U N
 K V X Y
+```
 
 ### Examples
 
