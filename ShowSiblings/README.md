@@ -31,15 +31,14 @@ K V X Y
 ![Show Siblings Shequalin Demo](https://github.com/DeutschMark/Glyphsapp-Plugins/blob/Screenshots/ShowSiblings/Screenshots/ShowSiblings Shequalin DeutschMark.jpg?raw=true "Show Siblings Shequalin Demo")
 
 
-live video comming ...
-
 ### Known issues
 
-- works only with the first master so far
+- Works only with the first master so far.
+- Removing a component doesn’t update the displayed layer in the group members until the .glyphs file is reopened.
 
 ### Pull Requests
 
-Feel free to comment or pull requests for any improvements
+Feel free to comment or pull requests for any improvements.
 
 ### License
 
