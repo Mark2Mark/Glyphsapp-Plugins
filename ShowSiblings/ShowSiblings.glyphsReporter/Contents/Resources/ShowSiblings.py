@@ -111,7 +111,9 @@ class ShowSiblings ( NSObject, GlyphsReporterProtocol ):
 		Glyph = Layer.parent
 		Font = Glyph.parent
 		thisMaster = Font.selectedFontMaster
-
+		masters = Font.masters
+		activeMasterIndex = masters.index(thisMaster)
+		
 		currentGlyphName = Glyph.name
 		
 		defaultSiblings = {
@@ -136,7 +138,7 @@ class ShowSiblings ( NSObject, GlyphsReporterProtocol ):
 				for siblingName in defaultSiblings[key]:
 					if siblingName != currentGlyphName:
 						sibling = Font.glyphForName_(siblingName)
-						thisLayer = sibling.layers[0]
+						thisLayer = sibling.layers[activeMasterIndex]
 
 						label.append(siblingName)
 						
