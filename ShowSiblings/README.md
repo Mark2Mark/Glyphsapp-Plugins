@@ -35,7 +35,6 @@ K V X Y
 
 ### Known issues
 
-- Works only with the first master so far.
 - Removing a component doesn’t update the displayed layer in the group members until the .glyphs file is reopened.
 
 ### Pull Requests
