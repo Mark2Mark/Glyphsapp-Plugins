@@ -6,7 +6,7 @@ This is a Plugin for the [Glyphs font editor](http://glyphsapp.com/). It superim
 
 ### How to use
 
-copy the `ShowSiblings.glyphsReporter` into your Glyphsapp Plugins folder (eg. `/Library/Application\ Support/Glyphs/Plugins`), restart Glyphs and when ever you need it, toggle `Show Siblings` from the view menu.
+Download or clone the whole `Glyphsapp-Plugins`repo (it will contain more plugins soon) and copy the `ShowSiblings.glyphsReporter` into your Glyphsapp Plugins folder (eg. `/Library/Application\ Support/Glyphs/Plugins`), restart Glyphs and when ever you need it, toggle `Show Siblings` from the view menu.
 
 ### Default groups
 
