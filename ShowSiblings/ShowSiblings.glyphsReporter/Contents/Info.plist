@@ -21,13 +21,13 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.2</string>
+	<string>1.1.3</string>
 	<key>UpdateFeedURL</key>
 	<string>https://raw.githubusercontent.com/DeutschMark/ShowSiblings/master/ShowSiblings.glyphsReporter/Contents/Info.plist</string>
 	<key>productPageURL</key>
 	<string>https://github.com/DeutschMark/Glyphsapp-Plugins/tree/master/ShowSiblings</string>
 	<key>productReleaseNotes</key>
-	<string>added Master Support</string>
+	<string>added Master Support and Glyphs 1 support</string>
 	<key>LSHasLocalizedDisplayName</key>
 	<false/>
 	<key>NSAppleScriptEnabled</key>
