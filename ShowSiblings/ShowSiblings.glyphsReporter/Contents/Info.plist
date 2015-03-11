@@ -23,7 +23,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.1.2</string>
 	<key>UpdateFeedURL</key>
-	<string>https://github.com/DeutschMark/Glyphsapp-Plugins/blob/master/ShowSiblings/ShowSiblings.glyphsReporter/Contents/Info.plist</string>
+	<string>https://raw.githubusercontent.com/DeutschMark/Glyphsapp-Plugins/blob/master/ShowSiblings/ShowSiblings.glyphsReporter/Contents/Info.plist</string>
 	<key>productPageURL</key>
 	<string>https://github.com/DeutschMark/Glyphsapp-Plugins/tree/master/ShowSiblings</string>
 	<key>productReleaseNotes</key>
