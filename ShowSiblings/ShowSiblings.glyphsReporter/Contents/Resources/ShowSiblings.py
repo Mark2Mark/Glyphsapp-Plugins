@@ -112,7 +112,14 @@ class ShowSiblings ( NSObject, GlyphsReporterProtocol ):
 		Font = Glyph.parent
 		thisMaster = Font.selectedFontMaster
 		masters = Font.masters
-		activeMasterIndex = masters.index(thisMaster)
+		try:
+			# Glyphs 2 (Python 2.7)
+			activeMasterIndex = masters.index(thisMaster)
+		except:
+			# Glyphs 1 (Python 2.6)
+			for i, k in enumerate(masters):
+				if thisMaster == masters[i]:
+					activeMasterIndex = i
 		
 		currentGlyphName = Glyph.name
 		
