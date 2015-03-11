@@ -25,7 +25,7 @@
 	<key>UpdateFeedURL</key>
 	<string>https://raw.githubusercontent.com/DeutschMark/ShowSiblings/master/ShowSiblings.glyphsReporter/Contents/Info.plist</string>
 	<key>productPageURL</key>
-	<string>https://github.com/DeutschMark/Glyphsapp-Plugins/tree/master/ShowSiblings</string>
+	<string>https://github.com/DeutschMark/Glyphsapp-Plugins</string>
 	<key>productReleaseNotes</key>
 	<string>added Master Support and Glyphs 1 support</string>
 	<key>LSHasLocalizedDisplayName</key>
