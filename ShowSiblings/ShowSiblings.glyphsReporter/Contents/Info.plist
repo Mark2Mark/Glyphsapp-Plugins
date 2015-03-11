@@ -23,11 +23,11 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.1.0</string>
 	<key>UpdateFeedURL</key>
-	<string>com.ShowSiblings.de</string>
+	<string>https://github.com/DeutschMark/Glyphsapp-Plugins/tree/master/ShowSiblings</string>
 	<key>productPageURL</key>
 	<string>https://github.com/DeutschMark/Glyphsapp-Plugins/tree/master/ShowSiblings</string>
 	<key>productReleaseNotes</key>
-	<string>nothing</string>
+	<string>added Master Support</string>
 	<key>LSHasLocalizedDisplayName</key>
 	<false/>
 	<key>NSAppleScriptEnabled</key>
