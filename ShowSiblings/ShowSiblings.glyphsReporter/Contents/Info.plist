@@ -33,7 +33,7 @@
 	<key>NSAppleScriptEnabled</key>
 	<false/>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright, Mark Froemberg, 2015</string>
+	<string>Copyright, by Mark Froemberg (DeutschMark), 2015</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
