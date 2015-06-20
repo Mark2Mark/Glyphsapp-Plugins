@@ -10,7 +10,7 @@ Download or clone the whole `Glyphsapp-Plugins`repo (it will contain more plugin
 
 ### Examples
 
-![Show Rotated Shequalin Demo](https://github.com/DeutschMark/Glyphsapp-Plugins/blob/Screenshots/ShowRotated/Screenshots/ShowRotated-Mark-Froemberg-1200.png?raw=true "Show Rotated Shequalin Demo")
+![Show Rotated Demo](https://github.com/DeutschMark/Glyphsapp-Plugins/blob/Screenshots/ShowRotated/Screenshots/ShowRotated-Mark-Froemberg-1200.png?raw=true "Show Rotated Demo")
 
 ![Show Rotated live Demo](https://github.com/DeutschMark/Glyphsapp-Plugins/blob/Screenshots/ShowRotated/Screenshots/screencapDemoFont.gif?raw=true "Show Rotated live Demo")
 
