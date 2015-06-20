@@ -1,5 +1,5 @@
 # Glyphsapp-Plugins
-Plugins for Glyphsapp by Mark Frömberg aka @DeutschMark
+Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @DeutschMark
 
 ### How to use
 
