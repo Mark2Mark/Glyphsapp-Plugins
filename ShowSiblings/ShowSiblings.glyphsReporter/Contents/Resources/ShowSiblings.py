@@ -5,7 +5,7 @@
 #
 # 2015 Mark Frömberg
 # aka DeutschMark
-# www.mirque.de
+# www.markfromberg.com
 #
 #########################################################
 
