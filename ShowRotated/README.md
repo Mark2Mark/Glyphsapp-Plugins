@@ -1,41 +1,23 @@
-# Show Siblings
+# Show Rotated
 
 ## Plugin for Glyphsapp
 
-This is a Plugin for the [Glyphs font editor](http://glyphsapp.com/). It superimposes a group of predefined glyphs in the background of your letters. This can be both pretty helpful in the beginning of a design as well as at intermediate progress where quick proof overview is needed. The degree of a desired match depends on each design, of course.
+This is a Plugin for the [Glyphs font editor](http://glyphsapp.com/). It superimposes the current shown glyph as a rotated copy of it self. This can be pretty helpful when working on symmetric characters (e.g. [0, O, o, S, s, Z, z, X, x, …]). The degree of a desired match depends on each design, of course. It is not nessessary to match the drawing with it’s rotated counterpart, but it can indeed help to balance letters in matters of weight distribution and/or optical centering.
 
 ### How to use
 
-Download or clone the whole `Glyphsapp-Plugins`repo (it will contain more plugins soon) and copy the `ShowSiblings.glyphsReporter` into your Glyphsapp Plugins folder (eg. `/Library/Application\ Support/Glyphs/Plugins`), restart Glyphs and when ever you need it, toggle `Show Siblings` from the view menu.
-
-### Default groups
-
-The default groups are as follows and can be customized in the `Contents/Resources/ShowSiblings.py`, search for the *defaultSiblings* dictionary.
-```
-c e o
-b p
-d q
-h n r l
-i j
-t f
-k x
-v y
-B D P R
-C G O Q
-H U N
-K V X Y
-```
+Download or clone the whole `Glyphsapp-Plugins`repo (it will contain more plugins soon) and copy the `ShowRotated.glyphsReporter` into your Glyphsapp Plugins folder (eg. `/Library/Application\ Support/Glyphs/Plugins`), restart Glyphs and when ever you need it, toggle `Show Rotated` from the view menu.
 
 ### Examples
 
-![Show Siblings Shequalin Demo](https://github.com/DeutschMark/Glyphsapp-Plugins/blob/Screenshots/ShowSiblings/Screenshots/ShowSiblings Shequalin DeutschMark.jpg?raw=true "Show Siblings Shequalin Demo")
+![Show Rotated Shequalin Demo](https://github.com/DeutschMark/Glyphsapp-Plugins/blob/Screenshots/ShowRotated/Screenshots/ShowRotated Shequalin DeutschMark.jpg?raw=true "Show Rotated Shequalin Demo")
 
-![Show Siblings live Demo](https://github.com/DeutschMark/Glyphsapp-Plugins/blob/Screenshots/ShowSiblings/Screenshots/screencapDemoFont.gif?raw=true "Show Siblings live Demo")
+![Show Rotated live Demo](https://github.com/DeutschMark/Glyphsapp-Plugins/blob/Screenshots/ShowRotated/Screenshots/screencapDemoFont.gif?raw=true "Show Rotated live Demo")
 
 
 ### Known issues
 
-- Removing a component doesn’t update the displayed layer in the group members until the .glyphs file is reopened.
+- None so far
 
 ### Pull Requests
 
