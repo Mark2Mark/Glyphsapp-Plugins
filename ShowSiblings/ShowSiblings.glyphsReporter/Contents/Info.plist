@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>ShowSiblings</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.DeutschMark.ShowSiblings</string>
+	<string>com.markfromberg.ShowSiblings</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -19,21 +19,21 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.3</string>
+	<string>1.1.4</string>
 	<key>UpdateFeedURL</key>
-	<string>https://raw.githubusercontent.com/DeutschMark/ShowSiblings/master/ShowSiblings.glyphsReporter/Contents/Info.plist</string>
+	<string>https://raw.githubusercontent.com/DeutschMark/Glyphsapp-Plugins/master/ShowSiblings/ShowSiblings.glyphsReporter/Contents/Info.plist</string>
 	<key>productPageURL</key>
 	<string>https://github.com/DeutschMark/Glyphsapp-Plugins</string>
 	<key>productReleaseNotes</key>
-	<string>added Master Support and Glyphs 1 support</string>
+	<string>Checking for updates now</string>
 	<key>LSHasLocalizedDisplayName</key>
 	<false/>
 	<key>NSAppleScriptEnabled</key>
 	<false/>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright, by Mark Frömberg (DeutschMark), 2015</string>
+	<string>Copyright, by Mark Frömberg (@DeutschMark), 2015</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
