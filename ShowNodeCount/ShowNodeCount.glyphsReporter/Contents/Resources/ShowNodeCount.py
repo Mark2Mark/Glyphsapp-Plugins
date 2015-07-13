@@ -123,7 +123,6 @@ class ShowNodeCount ( NSObject, GlyphsReporterProtocol ):
 			for thisPath in thisLayer.paths:
 				nodeCounter += len(thisPath.nodes)
 
-			#self.drawTextAtPoint( "%s Nodes" % nodeCounter, (5, 20) )
 			self.drawTextAtPoint( u"· %s" % nodeCounter, (-15 - offset, 5) )
 
 
