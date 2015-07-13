@@ -13,6 +13,7 @@ import objc
 from Foundation import *
 from AppKit import *
 import sys, os, re
+import math
 
 MainBundle = NSBundle.mainBundle()
 path = MainBundle.bundlePath() + "/Contents/Scripts"
@@ -112,13 +113,18 @@ class ShowNodeCount ( NSObject, GlyphsReporterProtocol ):
 		Font = Glyph.parent
 		selectedLayers = Font.selectedLayers
 
+		xHeight = Font.selectedFontMaster.xHeight
+		angle = Font.selectedFontMaster.italicAngle
+		# rotation point is half of x-height
+		offset = math.tan(math.radians(angle)) * xHeight/2
+
 		nodeCounter = 0
 		for thisLayer in selectedLayers:
 			for thisPath in thisLayer.paths:
 				nodeCounter += len(thisPath.nodes)
 
 			#self.drawTextAtPoint( "%s Nodes" % nodeCounter, (5, 20) )
-			self.drawTextAtPoint( u"· %s" % nodeCounter, (5, 20) )
+			self.drawTextAtPoint( u"· %s" % nodeCounter, (-15 - offset, 5) )
 
 
 	def drawBackgroundForLayer_( self, Layer ):
@@ -151,7 +157,7 @@ class ShowNodeCount ( NSObject, GlyphsReporterProtocol ):
 				NSFontAttributeName: NSFont.labelFontOfSize_( fontSize/currentZoom ),
 				NSForegroundColorAttributeName: fontColor }
 			displayText = NSAttributedString.alloc().initWithString_attributes_( text, fontAttributes )
-			textAlignment = 6 # top left: 6, top center: 7, top right: 8, center left: 3, center center: 4, center right: 5, bottom left: 0, bottom center: 1, bottom right: 2
+			textAlignment = 2 # top left: 6, top center: 7, top right: 8, center left: 3, center center: 4, center right: 5, bottom left: 0, bottom center: 1, bottom right: 2
 			glyphEditView.drawText_atPoint_alignment_( displayText, textPosition, textAlignment )
 		except Exception as e:
 			self.logToConsole( "drawTextAtPoint: %s" % str(e) )

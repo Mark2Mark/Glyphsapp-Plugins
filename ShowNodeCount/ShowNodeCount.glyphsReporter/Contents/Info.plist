@@ -21,13 +21,13 @@
 	<key>CFBundleVersion</key>
 	<string>3</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>UpdateFeedURL</key>
 	<string>https://raw.githubusercontent.com/DeutschMark/Glyphsapp-Plugins/master/ShowNodeCount/ShowNodeCount.glyphsReporter/Contents/Info.plist</string>
 	<key>productPageURL</key>
 	<string>https://github.com/DeutschMark/Glyphsapp-Plugins</string>
 	<key>productReleaseNotes</key>
-	<string>New Plugin</string>
+	<string>New position outside the sidebearings taking italic angle into account</string>
 	<key>LSHasLocalizedDisplayName</key>
 	<false/>
 	<key>NSAppleScriptEnabled</key>
