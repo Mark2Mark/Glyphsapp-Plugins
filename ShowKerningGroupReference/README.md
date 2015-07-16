@@ -10,6 +10,8 @@ Download or clone the whole `Glyphsapp-Plugins`repo (it will contain more plugin
 
 ### Examples
 
+![Show Kerning Group Reference live Demo](https://github.com/DeutschMark/Glyphsapp-Plugins/blob/Screenshots/ShowKerningGroupReference/Screenshots/ShowKerningGroupReference1_Mark-Froemberg.gif?raw=true "Show Kerning Group Reference live Demo")
+
 ![Show Kerning Group Reference live Demo](https://github.com/DeutschMark/Glyphsapp-Plugins/blob/Screenshots/ShowKerningGroupReference/Screenshots/ShowKerningGroupReference_Mark-Froemberg.gif?raw=true "Show Kerning Group Reference live Demo")
 
 
