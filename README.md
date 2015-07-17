@@ -3,16 +3,16 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Deu
 
 ### What is inside
 
-## Show Siblings
+#### Show Siblings
 Superimposes shape groups for the current glyph as a drawing reference.
 
-## Show Kerning Group Reference
+#### Show Kerning Group Reference
 Live preview of the kerning group reference glyph next to the current one.
 
-## Show Rotated
+#### Show Rotated
 Displays the current letter as a 180° rotated version of itself. Symmetry helper.
 
-## Show Node Count
+#### Show Node Count
 A little number in the edit view which keeps track of the current glyphs’s count of nodes.
 
 ### How to use
