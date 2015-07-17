@@ -1,8 +1,6 @@
 # Glyphsapp-Plugins
 Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @DeutschMark
 
-### What is inside
-
 #### Show Siblings
 Superimposes shape groups for the current glyph as a drawing reference.
 
@@ -17,4 +15,4 @@ A little number in the edit view which keeps track of the current glyphs’s cou
 
 ### How to use
 
-Download or clone this whole `Glyphsapp-Plugins` repo (it is filled up with more plugins every now and then) and copy the `*.glyphsReporter` file(s) into your Glyphsapp Plugins folder (eg. `/Library/Application\ Support/Glyphs/Plugins`) and restart Glyphs.
+Download or clone this whole `Glyphsapp-Plugins` repo (it is filled up with more plugins every now and then) and copy the `*.glyphsReporter` file(s) into your Glyphsapp Plugins folder (eg. `/Library/Application\ Support/Glyphs/Plugins`) and restart Glyphs. Select them from the View menu, they are called something like `Show Siblings`. If you want to set shortcuts, do so in the OSX settings by calling them by their exact name.
