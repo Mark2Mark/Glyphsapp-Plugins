@@ -52,7 +52,7 @@ class ShowNodeCount ( NSObject, GlyphsReporterProtocol ):
 		E.g. 'return "Nodes"' will make the menu item read "Show Nodes".
 		"""
 		try:
-			return "Node Count"
+			return "* Node Count"
 		except Exception as e:
 			self.logToConsole( "title: %s" % str(e) )
 	
@@ -123,6 +123,7 @@ class ShowNodeCount ( NSObject, GlyphsReporterProtocol ):
 			for thisPath in thisLayer.paths:
 				nodeCounter += len(thisPath.nodes)
 
+			#self.drawTextAtPoint( "%s Nodes" % nodeCounter, (5, 20) )
 			self.drawTextAtPoint( u"· %s" % nodeCounter, (-15 - offset, 5) )
 
 
