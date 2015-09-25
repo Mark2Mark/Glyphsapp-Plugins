@@ -1,16 +1,18 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-#########################################################
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #
-# 2015 Mark Frömberg
-# aka DeutschMark
-# www.markfromberg.com
+# --> let me know if you have ideas for improving
+# --> Mark Froemberg aka DeutschMark @ GitHub
+# --> www.markfromberg.com
 #
-# ToDo:
-#		- make drawing for left and right a function
+# - ToDo
+#	- 
 #
-#########################################################
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 import objc
 from Foundation import *
