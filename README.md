@@ -1,5 +1,5 @@
 # Glyphsapp-Plugins
-Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @DeutschMark
+Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @DeutschMark. Detailed information inside the readme of each plugin.
 
 #### Siblings
 Superimposes shape groups for the current glyph as a drawing reference.
