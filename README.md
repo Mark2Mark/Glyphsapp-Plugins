@@ -7,6 +7,9 @@ Superimposes shape groups for the current glyph as a drawing reference.
 #### Distance And Angle
 Shows the direct distance of two selected Elements (Nodes, Anchors, Components) and their angle.
 
+#### Next Master
+Displays the next Master in the currently active edit view.
+
 #### Kerning Group Reference
 Live preview of the kerning group reference glyph next to the current one.
 
