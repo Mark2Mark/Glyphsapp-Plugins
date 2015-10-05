@@ -78,7 +78,10 @@ class ShowDistanceAndAngleOfNodes ( NSObject, GlyphsReporterProtocol ):
 	
 	def drawNodeDistanceText( self, Layer ):
 		try:
-			selection = Layer.selection()
+			try:
+				selection = Layer.selection
+			except:
+				selection = Layer.selection()
 			if len(selection) == 2:
 				x1, y1 = selection[0].x, selection[0].y
 				x2, y2 = selection[1].x, selection[1].y
