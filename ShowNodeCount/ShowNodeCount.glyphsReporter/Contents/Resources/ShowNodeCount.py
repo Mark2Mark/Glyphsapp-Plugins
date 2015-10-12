@@ -116,7 +116,7 @@ class ShowNodeCount ( NSObject, GlyphsReporterProtocol ):
 
 		Glyph = Layer.parent
 		Font = Glyph.parent
-		selectedLayers = Font.selectedLayers
+		selectedLayer = Font.selectedLayers[0]
 
 		xHeight = Font.selectedFontMaster.xHeight
 		angle = Font.selectedFontMaster.italicAngle
@@ -124,12 +124,11 @@ class ShowNodeCount ( NSObject, GlyphsReporterProtocol ):
 		offset = math.tan(math.radians(angle)) * xHeight/2
 
 		nodeCounter = 0
-		for thisLayer in selectedLayers:
-			for thisPath in thisLayer.paths:
-				nodeCounter += len(thisPath.nodes)
+		for thisPath in selectedLayer.paths:
+			nodeCounter += len(thisPath.nodes)
 
-			#self.drawTextAtPoint( "%s Nodes" % nodeCounter, (5, 20) )
-			self.drawTextAtPoint( u"· %s" % nodeCounter, (-15 - offset, 5) )
+		#self.drawTextAtPoint( "%s Nodes" % nodeCounter, (5, 20) )
+		self.drawTextAtPoint( u"· %s" % nodeCounter, (-15 - offset, 5) )
 
 
 	def drawBackgroundForLayer_( self, Layer ):
