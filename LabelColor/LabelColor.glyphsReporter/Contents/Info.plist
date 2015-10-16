@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>LabelColor</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.markfromberg.LabelColor</string>
+	<string>com.DeutschMark.LabelColor</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -23,17 +23,17 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0.1</string>
 	<key>UpdateFeedURL</key>
-	<string>https://raw.githubusercontent.com/DeutschMark/Glyphsapp-Plugins/master/LabelColor/LabelColor.glyphsReporter/Contents/Info.plist</string>
+	<string></string>
 	<key>productPageURL</key>
-	<string>https://github.com/DeutschMark/Glyphsapp-Plugins</string>
+	<string></string>
 	<key>productReleaseNotes</key>
-	<string>First Release</string>
+	<string>Now displays Layer Color as well</string>
 	<key>LSHasLocalizedDisplayName</key>
 	<false/>
 	<key>NSAppleScriptEnabled</key>
 	<false/>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright, by Mark Frömberg (@DeutschMark), 2015</string>
+	<string></string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
