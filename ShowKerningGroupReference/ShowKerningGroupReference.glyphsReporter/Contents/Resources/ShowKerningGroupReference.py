@@ -88,10 +88,14 @@ class ShowKerningGroupReference ( NSObject, GlyphsReporterProtocol ):
 			xHeight = thisMaster.xHeight
 			margin = 30
 			scaler = .2
+			R, G, B = 0, 0.5, 0.5
+			floatLimit = 0.04
+			
 
 			### LEFT
 			if Layer.parent.leftKerningGroup:
 				LKG = Layer.parent.leftKerningGroup
+
 				try:
 					LKGGlyph = Font.glyphForName_(LKG)
 
@@ -108,7 +112,11 @@ class ShowKerningGroupReference ( NSObject, GlyphsReporterProtocol ):
 					# position( self, LKGWidth )
 					# switcher( self.leftPosition, self.rightPosition, self.LKGGlyphActiveMaster )
 					for gL in LKGGlyphs:
-						NSColor.colorWithCalibratedRed_green_blue_alpha_(0, 0.5, 0.5, .8/len(LKGGlyphs)).set()
+						leftAlpha = .8/len(LKGGlyphs)
+						if leftAlpha < floatLimit:
+							leftAlpha = floatLimit
+						# NSColor.colorWithCalibratedRed_green_blue_alpha_(0, 0.5, 0.5, leftAlpha).set()
+						NSColor.colorWithCalibratedRed_green_blue_alpha_(R, G, B, leftAlpha).set()
 						self.LKGGlyphActiveMaster = gL.layers[activeMasterIndex]
 						LKGWidth = self.LKGGlyphActiveMaster.width * scaler
 						position( self, LKGWidth )
@@ -138,7 +146,10 @@ class ShowKerningGroupReference ( NSObject, GlyphsReporterProtocol ):
 					# position( self, RKGWidth )
 					# switcher( self.rightPosition, self.leftPosition, self.RKGGlyphActiveMaster )
 					for gR in RKGGlyphs:
-						NSColor.colorWithCalibratedRed_green_blue_alpha_(0, 0.5, 0.5, .8/len(RKGGlyphs)).set()
+						rightAlpha = .8/len(RKGGlyphs)
+						if rightAlpha < floatLimit:
+							rightAlpha = floatLimit						
+						NSColor.colorWithCalibratedRed_green_blue_alpha_(R, G, B, rightAlpha).set()
 						self.RKGGlyphActiveMaster = gR.layers[activeMasterIndex]
 						RKGWidth = self.RKGGlyphActiveMaster.width * scaler
 						position( self, RKGWidth )
