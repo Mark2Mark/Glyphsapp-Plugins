@@ -1,18 +1,16 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#########################################################
 #
-# --> let me know if you have ideas for improving
-# --> Mark Froemberg aka DeutschMark @ GitHub
-# --> www.markfromberg.com
+# 2015 Mark Frömberg
+# aka DeutschMark
+# www.markfromberg.com
 #
-# - ToDo
-#	- 
+# ToDo:
+#		- make drawing for left and right a function
 #
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#########################################################
 
 import objc
 from Foundation import *
@@ -31,9 +29,6 @@ GlyphsReporterProtocol = objc.protocolNamed( "GlyphsReporter" )
 class ShowKerningGroupReference ( NSObject, GlyphsReporterProtocol ):
 	
 	def init( self ):
-		"""
-		Put any initializations you want to make here.
-		"""
 		try:
 			#Bundle = NSBundle.bundleForClass_( NSClassFromString( self.className() ));
 			return self
@@ -41,84 +36,118 @@ class ShowKerningGroupReference ( NSObject, GlyphsReporterProtocol ):
 			self.logToConsole( "init: %s" % str(e) )
 	
 	def interfaceVersion( self ):
-		"""
-		Distinguishes the API version the plugin was built for. 
-		Return 1.
-		"""
 		try:
 			return 1
 		except Exception as e:
 			self.logToConsole( "interfaceVersion: %s" % str(e) )
 	
 	def title( self ):
-		"""
-		This is the name as it appears in the menu in combination with 'Show'.
-		E.g. 'return "Nodes"' will make the menu item read "Show Nodes".
-		"""
 		try:
-			return "Kerning Group Reference"
+			return "* Kerning Group Reference"
 		except Exception as e:
 			self.logToConsole( "title: %s" % str(e) )
 	
 	def keyEquivalent( self ):
-		"""
-		The key for the keyboard shortcut. Set modifier keys in modifierMask() further below.
-		Pretty tricky to find a shortcut that is not taken yet, so be careful.
-		If you are not sure, use 'return None'. Users can set their own shortcuts in System Prefs.
-		"""
 		try:
 			return None
 		except Exception as e:
 			self.logToConsole( "keyEquivalent: %s" % str(e) )
 	
 	def modifierMask( self ):
-		"""
-		Use any combination of these to determine the modifier keys for your default shortcut:
-			return NSShiftKeyMask | NSControlKeyMask | NSCommandKeyMask | NSAlternateKeyMask
-		Or:
-			return 0
-		... if you do not want to set a shortcut.
-		"""
 		try:
 			return 0
 		except Exception as e:
 			self.logToConsole( "modifierMask: %s" % str(e) )
 	
+
 	def drawForegroundForLayer_( self, Layer ):
 
 		Glyph = Layer.parent
 		Font = Glyph.parent
+		masters = Font.masters		
 		thisMaster = Font.selectedFontMaster
-		masters = Font.masters
 		activeMasterIndex = masters.index(thisMaster)
+		direction = Font.tabs[-1].writingDirection() ### <-- crash issue at Line Break?
+
+		def position( self, KGWidth):
+			distance = 120
+			# self.leftPosition = -KGWidth - margin, xHeight/2
+			self.leftPosition = -distance - margin, xHeight/2
+			# self.rightPosition = thisWidth + margin, xHeight/2
+			self.rightPosition = thisWidth + margin+10 + distance - KGWidth, xHeight/2
+
+		def switcher( A, B, KGGlyphActiveMaster ):
+			if direction == 0:
+				self.drawKerningGroupReference( KGGlyphActiveMaster, *A )
+			if direction == 1:
+				self.drawKerningGroupReference( KGGlyphActiveMaster, *B )
 
 		try:
-			#NSColor.darkGrayColor().set()
-			NSColor.colorWithCalibratedRed_green_blue_alpha_(0.8, 0, 0, .8).set()
+			# NSColor.colorWithCalibratedRed_green_blue_alpha_(0.8, 0, 0, .8).set()
 			thisWidth = Layer.width
 			xHeight = thisMaster.xHeight
 			margin = 30
 			scaler = .2
 
-			######## MAKE THESE A FUNCTION!
 			### LEFT
 			if Layer.parent.leftKerningGroup:
 				LKG = Layer.parent.leftKerningGroup
-								
-				LKGGlyph = Font.glyphForName_(LKG)
-				LKGGlyphActiveMaster = LKGGlyph.layers[activeMasterIndex]
-				LKGWidth = LKGGlyphActiveMaster.width * scaler
-				self.drawKerningGroupReference( LKGGlyphActiveMaster, -LKGWidth-margin, xHeight/2 )
+				try:
+					LKGGlyph = Font.glyphForName_(LKG)
+
+					###
+					LKGGlyphs = []
+					for glyph in Font.glyphs:
+						if glyph.leftKerningGroup == LKG:
+							LKGGlyphs.append(Font.glyphForName_(glyph.name))
+					# self.logToConsole(LKGGlyphs)
+					###
+
+					# self.LKGGlyphActiveMaster = LKGGlyph.layers[activeMasterIndex]
+					# LKGWidth = self.LKGGlyphActiveMaster.width * scaler
+					# position( self, LKGWidth )
+					# switcher( self.leftPosition, self.rightPosition, self.LKGGlyphActiveMaster )
+					for gL in LKGGlyphs:
+						NSColor.colorWithCalibratedRed_green_blue_alpha_(0, 0.5, 0.5, .8/len(LKGGlyphs)).set()
+						self.LKGGlyphActiveMaster = gL.layers[activeMasterIndex]
+						LKGWidth = self.LKGGlyphActiveMaster.width * scaler
+						position( self, LKGWidth )
+						switcher( self.leftPosition, self.rightPosition, self.LKGGlyphActiveMaster )
+					# LKGGlyphsNames = "\n".join([str(x.name) for x in LKGGlyphs])
+					# self.drawTextAtPoint(str(LKGGlyphsNames), (0, 0))						
+				except:
+					pass
+
 
 			### Right
 			if Layer.parent.rightKerningGroup:
 				RKG = Layer.parent.rightKerningGroup
-								
-				RKGGlyph = Font.glyphForName_(RKG)
-				RKGGlyphActiveMaster = RKGGlyph.layers[activeMasterIndex]
-				RKGWidth = RKGGlyphActiveMaster.width * scaler
-				self.drawKerningGroupReference( RKGGlyphActiveMaster, thisWidth+margin, xHeight/2 )
+				try:
+					RKGGlyph = Font.glyphForName_(RKG)
 
+					###
+					RKGGlyphs = []
+					for glyph in Font.glyphs:
+						if glyph.rightKerningGroup == RKG:
+							RKGGlyphs.append(Font.glyphForName_(glyph.name))
+					# self.logToConsole(RKGGlyphs)
+					###
+
+					# self.RKGGlyphActiveMaster = RKGGlyph.layers[activeMasterIndex]
+					# RKGWidth = self.RKGGlyphActiveMaster.width * scaler
+					# position( self, RKGWidth )
+					# switcher( self.rightPosition, self.leftPosition, self.RKGGlyphActiveMaster )
+					for gR in RKGGlyphs:
+						NSColor.colorWithCalibratedRed_green_blue_alpha_(0, 0.5, 0.5, .8/len(RKGGlyphs)).set()
+						self.RKGGlyphActiveMaster = gR.layers[activeMasterIndex]
+						RKGWidth = self.RKGGlyphActiveMaster.width * scaler
+						position( self, RKGWidth )
+						switcher( self.rightPosition, self.leftPosition, self.RKGGlyphActiveMaster )
+						# self.drawTextAtPoint("\n".join(RKGGlyphs), (0, 0))
+					# RKGGlyphsNames = "\n".join([str(x.name) for x in RKGGlyphs])
+					# self.drawTextAtPoint(str(RKGGlyphsNames), (0, 0))
+				except:
+					pass
 
 		except Exception as e:
 			self.logToConsole( "drawForegroundForLayer_: %s" % str(e) )
@@ -140,28 +169,18 @@ class ShowKerningGroupReference ( NSObject, GlyphsReporterProtocol ):
 
 
 	def drawBackgroundForLayer_( self, Layer ):
-		"""
-		Whatever you draw here will be displayed BEHIND the paths.
-		"""
 		try:
 			pass
 		except Exception as e:
 			self.logToConsole( "drawBackgroundForLayer_: %s" % str(e) )
 
 	def drawBackgroundForInactiveLayer_( self, Layer ):
-		"""
-		Whatever you draw here will be displayed behind the paths,
-		but for inactive glyphs in the Edit view.
-		"""
 		try:
 			pass
 		except Exception as e:
 			self.logToConsole( "drawBackgroundForInactiveLayer_: %s" % str(e) )
 	
-	def drawTextAtPoint( self, text, textPosition, fontSize=14.0, fontColor=NSColor.colorWithCalibratedRed_green_blue_alpha_( 0.0, 0.2, 0.0, 0.3 ) ):
-		"""
-		Use self.drawTextAtPoint( "blabla", myNSPoint ) to display left-aligned text at myNSPoint.
-		"""
+	def drawTextAtPoint( self, text, textPosition, fontSize=6.0, fontColor=NSColor.colorWithCalibratedRed_green_blue_alpha_( 0.0, 0.2, 0.0, 0.3 ) ):
 		try:
 			glyphEditView = self.controller.graphicView()
 			currentZoom = self.getScale()
@@ -169,28 +188,15 @@ class ShowKerningGroupReference ( NSObject, GlyphsReporterProtocol ):
 				NSFontAttributeName: NSFont.labelFontOfSize_( fontSize/currentZoom ),
 				NSForegroundColorAttributeName: fontColor }
 			displayText = NSAttributedString.alloc().initWithString_attributes_( text, fontAttributes )
-			textAlignment = 0 # top left: 6, top center: 7, top right: 8, center left: 3, center center: 4, center right: 5, bottom left: 0, bottom center: 1, bottom right: 2
+			textAlignment = 6 # top left: 6, top center: 7, top right: 8, center left: 3, center center: 4, center right: 5, bottom left: 0, bottom center: 1, bottom right: 2
 			glyphEditView.drawText_atPoint_alignment_( displayText, textPosition, textAlignment )
 		except Exception as e:
 			self.logToConsole( "drawTextAtPoint: %s" % str(e) )
 	
 	def needsExtraMainOutlineDrawingForInactiveLayer_( self, Layer ):
-		"""
-		Whatever you draw here will be displayed in the Preview at the bottom.
-		Remove the method or return True if you want to leave the Preview untouched.
-		Return True to leave the Preview as it is and draw on top of it.
-		Return False to disable the Preview and draw your own.
-		In that case, don't forget to add Bezier methods like in drawForegroundForLayer_(),
-		otherwise users will get an empty Preview.
-		"""
 		return True
 	
 	def getHandleSize( self ):
-		"""
-		Returns the current handle size as set in user preferences.
-		Use: self.getHandleSize() / self.getScale()
-		to determine the right size for drawing on the canvas.
-		"""
 		try:
 			Selected = NSUserDefaults.standardUserDefaults().integerForKey_( "GSHandleSize" )
 			if Selected == 0:
@@ -204,10 +210,6 @@ class ShowKerningGroupReference ( NSObject, GlyphsReporterProtocol ):
 			return 7.0
 
 	def getScale( self ):
-		"""
-		self.getScale() returns the current scale factor of the Edit View UI.
-		Divide any scalable size by this value in order to keep the same apparent pixel size.
-		"""
 		try:
 			return self.controller.graphicView().scale()
 		except:
@@ -215,18 +217,11 @@ class ShowKerningGroupReference ( NSObject, GlyphsReporterProtocol ):
 			return 1.0
 	
 	def setController_( self, Controller ):
-		"""
-		Use self.controller as object for the current view controller.
-		"""
 		try:
 			self.controller = Controller
 		except Exception as e:
 			self.logToConsole( "Could not set controller" )
 	
 	def logToConsole( self, message ):
-		"""
-		The variable 'message' will be passed to Console.app.
-		Use self.logToConsole( "bla bla" ) for debugging.
-		"""
 		myLog = "Show %s plugin:\n%s" % ( self.title(), message )
 		NSLog( myLog )
