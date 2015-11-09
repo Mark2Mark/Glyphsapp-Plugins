@@ -13,7 +13,7 @@
 #########################################################
 
 import objc
-from Foundation import *
+# from Foundation import *
 from AppKit import *
 import sys, os, re
 
@@ -115,6 +115,7 @@ class ShowKerningGroupReference ( NSObject, GlyphsReporterProtocol ):
 						leftAlpha = .8/len(LKGGlyphs)
 						if leftAlpha < floatLimit:
 							leftAlpha = floatLimit
+						# self.logToConsole(leftAlpha)
 						# NSColor.colorWithCalibratedRed_green_blue_alpha_(0, 0.5, 0.5, leftAlpha).set()
 						NSColor.colorWithCalibratedRed_green_blue_alpha_(R, G, B, leftAlpha).set()
 						self.LKGGlyphActiveMaster = gL.layers[activeMasterIndex]
