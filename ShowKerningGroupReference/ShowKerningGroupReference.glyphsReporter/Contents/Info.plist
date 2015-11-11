@@ -19,15 +19,15 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>4</string>
+	<string>5</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.4</string>
+	<string>1.0.5</string>
 	<key>UpdateFeedURL</key>
-	<string>https://raw.githubusercontent.com/DeutschMark/Glyphsapp-Plugins/master/ShowKerningGroupReference/ShowKerningGroupReference.glyphsReporter/Contents/Info.plist</string>
+	<string>https://raw.githubusercontent.com/DeutschMark/Show-Kerning-Group-Reference/master/ShowKerningGroupReference.glyphsReporter/Contents/Info.plist</string>
 	<key>productPageURL</key>
-	<string>https://github.com/DeutschMark/Glyphsapp-Plugins</string>
+	<string>https://github.com/DeutschMark/Show-Kerning-Group-Reference</string>
 	<key>productReleaseNotes</key>
-	<string>Removed Cocoa import. Fixed a color Bug. Displays all members superimposed (similar to `Show Group Members` by Georg). This is still different for it focusses on a glyph and not a pair.</string>
+	<string>New Repository Location</string>
 	<key>LSHasLocalizedDisplayName</key>
 	<false/>
 	<key>NSAppleScriptEnabled</key>
