@@ -8,6 +8,14 @@ Due to maintenance reasons I have moved the Plugins to a single Repository for e
 
 ! + + + + + + + + + + 
 
+#### Show Smart Plumplines
+--> https://github.com/DeutschMark/Show-Smart-Plumblines
+Live Guidelines at Center of Objects.
+
+#### Uncover xHeight
+--> https://github.com/DeutschMark/Uncover-xHeight
+Wraps everything beyond the xHeight in black.
+
 #### Show Siblings
 --> https://github.com/DeutschMark/Show-Siblings
 Superimposes shape groups for the current glyph as a drawing reference.
