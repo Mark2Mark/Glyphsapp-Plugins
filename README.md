@@ -1,44 +1,39 @@
 # Glyphsapp-Plugins
 Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @DeutschMark. Detailed information inside the readme of each plugin.
 
-#### ! ! ! Attention: ! ! !
+#### ! ! ! ATTENTION ! ! !
 ! + + + + + + + + + +
+
 Due to maintenance reasons I have moved the Plugins to a single Repository for each one. Please find the new locations below here in the readme. I will keep the old Plugins here for some days but they are considered to be outdated now.
+
 ! + + + + + + + + + + 
 
 #### Show Siblings
-new location: https://github.com/DeutschMark/Show-Siblings
-
+--> https://github.com/DeutschMark/Show-Siblings
 Superimposes shape groups for the current glyph as a drawing reference.
 
 #### Show Distance And Angle
-new location: https://github.com/DeutschMark/Show-Distance-And-Angle-Of-Nodes
-
+--> https://github.com/DeutschMark/Show-Distance-And-Angle-Of-Nodes
 Shows the direct distance of two selected Elements (Nodes, Anchors, Components) and their angle.
 
 #### Show Next Master
-new location: https://github.com/DeutschMark/Show-Next-Master
-
+--> https://github.com/DeutschMark/Show-Next-Master
 Displays the next Master in the currently active edit view.
 
 #### Show Kerning Group Reference
-new location: https://github.com/DeutschMark/Show-Kerning-Group-Reference
-
+--> https://github.com/DeutschMark/Show-Kerning-Group-Reference
 Live preview of the kerning group reference glyph next to the current one.
 
 #### Show Rotated
-new location: https://github.com/DeutschMark/Show-Rotated
-
+--> https://github.com/DeutschMark/Show-Rotated
 Displays the current letter as a 180° rotated version of itself. Symmetry helper.
 
 #### Show Label Color
-new location: https://github.com/DeutschMark/Show-Label-Color
-
+--> https://github.com/DeutschMark/Show-Label-Color
 Displays the Laber Color in the glyph body in the edit view. For all glyphs that are displayed.
 
 #### Show Node Count
-new location: https://github.com/DeutschMark/Show-Node-Count
-
+--> https://github.com/DeutschMark/Show-Node-Count
 A little number in the edit view which keeps track of the current glyphs’s count of nodes.
 
 ### How to use
