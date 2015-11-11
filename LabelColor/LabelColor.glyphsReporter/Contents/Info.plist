@@ -19,12 +19,12 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>2</string>
+	<string>3</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.1</string>
+	<string>1.0.3</string>
 	<key>UpdateFeedURL</key>
-	<string></string>
-	<key>productPageURL</key>
+	<string>https://raw.githubusercontent.com/DeutschMark/Show-Label-Color/master/LabelColor.glyphsReporter/Contents/Info.plist</string>
+	<key>https://github.com/DeutschMark/Show-Label-Color</key>
 	<string></string>
 	<key>productReleaseNotes</key>
 	<string>Now displays Layer Color as well</string>
