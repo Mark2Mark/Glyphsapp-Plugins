@@ -1,22 +1,35 @@
 # Glyphsapp-Plugins
 Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @DeutschMark. Detailed information inside the readme of each plugin.
 
-#### Siblings
+#### Attention:
+Due to maintenance reasons I have moved the Plugins to a single Repository for each one. Please find the new locations below here in the readme. I will keep the old Plugins here for some days but they are considered to be outdated now.
+
+#### Show Siblings
+new location: https://github.com/DeutschMark/Show-Siblings
 Superimposes shape groups for the current glyph as a drawing reference.
 
-#### Distance And Angle
+#### Show Distance And Angle
+new location: https://github.com/DeutschMark/Show-Distance-And-Angle-Of-Nodes
 Shows the direct distance of two selected Elements (Nodes, Anchors, Components) and their angle.
 
-#### Next Master
+#### Show Next Master
+new location: https://github.com/DeutschMark/Show-Next-Master
 Displays the next Master in the currently active edit view.
 
-#### Kerning Group Reference
+#### Show Kerning Group Reference
+new location: https://github.com/DeutschMark/Show-Kerning-Group-Reference
 Live preview of the kerning group reference glyph next to the current one.
 
-#### Rotated
+#### Show Rotated
+new location: https://github.com/DeutschMark/Show-Rotated
 Displays the current letter as a 180° rotated version of itself. Symmetry helper.
 
-#### Node Count
+#### Show Label Color
+new location: https://github.com/DeutschMark/Show-Label-Color
+Displays the Laber Color in the glyph body in the edit view. For all glyphs that are displayed.
+
+#### Show Node Count
+new location: https://github.com/DeutschMark/Show-Node-Count
 A little number in the edit view which keeps track of the current glyphs’s count of nodes.
 
 ### How to use
