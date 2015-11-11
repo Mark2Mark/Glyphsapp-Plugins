@@ -2,9 +2,9 @@
 Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @DeutschMark. Detailed information inside the readme of each plugin.
 
 #### ! ! ! Attention: ! ! !
-+ + + + + + + + + + + 
+! + + + + + + + + + +
 Due to maintenance reasons I have moved the Plugins to a single Repository for each one. Please find the new locations below here in the readme. I will keep the old Plugins here for some days but they are considered to be outdated now.
-+ + + + + + + + + + + 
+! + + + + + + + + + + 
 
 #### Show Siblings
 new location: https://github.com/DeutschMark/Show-Siblings
