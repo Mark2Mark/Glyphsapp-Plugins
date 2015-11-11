@@ -23,9 +23,9 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.1.2</string>
 	<key>UpdateFeedURL</key>
-	<string>https://raw.githubusercontent.com/DeutschMark/Glyphsapp-Plugins/master/ShowRotated/ShowRotated.glyphsReporter/Contents/Info.plist</string>
+	<string>https://raw.githubusercontent.com/DeutschMark/Show-Rotated/master/ShowRotated.glyphsReporter/Contents/Info.plist</string>
 	<key>productPageURL</key>
-	<string>https://github.com/DeutschMark/Glyphsapp-Plugins</string>
+	<string>https://github.com/DeutschMark/Show-Rotated</string>
 	<key>productReleaseNotes</key>
 	<string>First public release</string>
 	<key>LSHasLocalizedDisplayName</key>

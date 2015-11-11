@@ -23,9 +23,9 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0.1</string>
 	<key>UpdateFeedURL</key>
-	<string>https://raw.githubusercontent.com/DeutschMark/Glyphsapp-Plugins/master/ShowDistanceAndAngleOfNodes/ShowDistanceAndAngleOfNodes.glyphsReporter/Contents/Info.plist</string>
+	<string>https://raw.githubusercontent.com/DeutschMark/Show-Distance-And-Angle-Of-Nodes/master/ShowDistanceAndAngleOfNodes.glyphsReporter/Contents/Info.plist</string>
 	<key>productPageURL</key>
-	<string>https://github.com/DeutschMark/Glyphsapp-Plugins</string>
+	<string>https://github.com/DeutschMark/Show-Distance-And-Angle-Of-Nodes</string>
 	<key>productReleaseNotes</key>
 	<string>New Plugin</string>
 	<key>LSHasLocalizedDisplayName</key>

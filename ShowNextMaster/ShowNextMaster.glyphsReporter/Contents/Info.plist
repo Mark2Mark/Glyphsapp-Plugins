@@ -23,9 +23,9 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0.3</string>
 	<key>UpdateFeedURL</key>
-	<string>https://raw.githubusercontent.com/DeutschMark/Glyphsapp-Plugins/master/ShowNextMaster/ShowNextMaster.glyphsReporter/Contents/Info.plist</string>
+	<string>https://raw.githubusercontent.com/DeutschMark/Show-Next-Master/master/ShowNextMaster.glyphsReporter/Contents/Info.plist</string>
 	<key>productPageURL</key>
-	<string>https://github.com/DeutschMark/Glyphsapp-Plugins</string>
+	<string>https://github.com/DeutschMark/Show-Next-Master</string>
 	<key>productReleaseNotes</key>
 	<string>Displays self in red and NOT the next master when a Master called "Bla Original" is active</string>
 	<key>LSHasLocalizedDisplayName</key>
