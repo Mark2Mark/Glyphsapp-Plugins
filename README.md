@@ -2,15 +2,16 @@
 Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @DeutschMark. Detailed information inside the readme of each plugin.
 
 #### ! ! ! ATTENTION ! ! !
-! + + + + + + + + + +
++ :boom: + :boom: + :boom: + :boom: + :boom: + :boom: + :boom: + :boom: +
 
-Due to maintenance reasons I have moved the Plugins to a single Repository for each one. Please find the new locations below here in the readme. I will keep the old Plugins here for some days but they are considered to be outdated now.
+Due to maintenance reasons I have moved each of these Plugins to a single Repository. You find the new locations below. The obsolete versions will be kept here, but not further developed. Feel free to head over to the new ones.
 
-! + + + + + + + + + + 
++ :boom: + :boom: + :boom: + :boom: + :boom: + :boom: + :boom: + :boom: +
 
 #### Show Smart Plumplines
 --> https://github.com/DeutschMark/Show-Smart-Plumblines
 Live Guidelines at Center of Objects.
+!(https://raw.githubusercontent.com/DeutschMark/Show-Next-Master/master/Screenshots/Show%20Next%20Master%2001.png?raw=true width="48")
 
 #### Uncover xHeight
 --> https://github.com/DeutschMark/Uncover-xHeight
@@ -43,7 +44,3 @@ Displays the Laber Color in the glyph body in the edit view. For all glyphs that
 #### Show Node Count
 --> https://github.com/DeutschMark/Show-Node-Count
 A little number in the edit view which keeps track of the current glyphs’s count of nodes.
-
-### How to use
-
-Download or clone this whole `Glyphsapp-Plugins` repo (it is filled up with more plugins every now and then) and copy the `*.glyphsReporter` file(s) into your Glyphsapp Plugins folder (eg. `/Library/Application\ Support/Glyphs/Plugins`), or double click the plugin and confirm the dialogue in Glyphsapp. In any case you need to restart Glyphs with each update of your plugins. Select them from the View menu, they are called something like `Show Siblings`. If you want to set shortcuts, do so in the OSX settings by calling them by their exact name.
