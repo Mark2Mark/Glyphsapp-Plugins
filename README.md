@@ -27,7 +27,11 @@ Due to maintenance reasons I have moved each of these Plugins to a single Reposi
 ## Show Next Master
 :point_right: [Displays the next Master in the currently active edit view.](https://github.com/DeutschMark/Show-Next-Master) :point_left:
 <img src="https://raw.githubusercontent.com/DeutschMark/Show-Next-Master/master/Screenshots/Show%20Next%20Master%2001.png?raw=true" align="left" width="250">
+
+
 ----
+
+
 
 ## Show Kerning Group Reference
 :point_right: [Live preview of the kerning group reference glyph next to the current one.](https://github.com/DeutschMark/Show-Kerning-Group-Reference) :point_left:
