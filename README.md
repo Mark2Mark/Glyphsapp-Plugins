@@ -9,8 +9,8 @@ Due to maintenance reasons I have moved each of these Plugins to a single Reposi
 + :boom: + :boom: + :boom: + :boom: + :boom: + :boom: + :boom: + :boom: +
 
 ## Show Smart Plumplines
-:point_right: https://github.com/DeutschMark/Show-Smart-Plumblines
-Live Guidelines at Center of Objects.
+:point_right: [Live Guidelines at Center of Objects.](https://github.com/DeutschMark/Show-Smart-Plumblines)
+
 
 
 ## Uncover xHeight
