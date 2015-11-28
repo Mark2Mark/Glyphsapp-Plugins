@@ -32,7 +32,7 @@ Shows the direct distance of two selected Elements (Nodes, Anchors, Components) 
 --> https://github.com/DeutschMark/Show-Next-Master
 Displays the next Master in the currently active edit view.
 ![Show Next Master]
-(https://raw.githubusercontent.com/DeutschMark/Show-Next-Master/master/Screenshots/Show%20Next%20Master%2001.png?raw=true)
+(https://raw.githubusercontent.com/DeutschMark/Show-Next-Master/master/Screenshots/Show%20Next%20Master%2001.png?raw=true =100x20)
 
 #### Show Kerning Group Reference
 --> https://github.com/DeutschMark/Show-Kerning-Group-Reference
