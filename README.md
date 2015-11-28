@@ -9,7 +9,7 @@ Due to maintenance reasons I have moved each of these Plugins to a single Reposi
 
 
 ---
-Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @DeutschMark. Detailed information inside the readme of each plugin.
+###### Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @DeutschMark. Detailed information inside the readme of each plugin.
 ---
 
 ## Show Smart Plumplines
