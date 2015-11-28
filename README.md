@@ -11,7 +11,7 @@ Due to maintenance reasons I have moved each of these Plugins to a single Reposi
 #### Show Smart Plumplines
 --> https://github.com/DeutschMark/Show-Smart-Plumblines
 Live Guidelines at Center of Objects.
-!(https://raw.githubusercontent.com/DeutschMark/Show-Next-Master/master/Screenshots/Show%20Next%20Master%2001.png?raw=true width="48")
+<img src="https://raw.githubusercontent.com/DeutschMark/Show-Next-Master/master/Screenshots/Show%20Next%20Master%2001.png?raw=true" width="150">
 
 #### Uncover xHeight
 --> https://github.com/DeutschMark/Uncover-xHeight
