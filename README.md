@@ -1,5 +1,4 @@
 # Glyphsapp-Plugins
-Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @DeutschMark. Detailed information inside the readme of each plugin.
 
 ### :x: :construction: :no_entry_sign: :large_orange_diamond: ATTENTION :large_orange_diamond: :no_entry_sign: :construction: :x:
 :red_circle: :boom: :red_circle: :boom: :red_circle: :boom:
@@ -9,6 +8,8 @@ Due to maintenance reasons I have moved each of these Plugins to a single Reposi
 :red_circle: :boom: :red_circle: :boom: :red_circle: :boom: 
 
 
+---
+Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @DeutschMark. Detailed information inside the readme of each plugin.
 ---
 
 ## Show Smart Plumplines
