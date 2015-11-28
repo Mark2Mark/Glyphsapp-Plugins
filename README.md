@@ -1,8 +1,8 @@
 # Glyphsapp-Plugins
 Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @DeutschMark. Detailed information inside the readme of each plugin.
 
-#### ! ! ! ATTENTION ! ! !
-+ :boom: + :boom: + :boom: + :boom: + :boom: + :boom: + :boom: + :boom: +
+#### :no_entry_sign: :large_orange_diamond: ATTENTION :large_orange_diamond: :no_entry_sign:
++ :boom: :red_circle: :boom: :red_circle: :boom: :red_circle: :boom: :red_circle: :boom: :red_circle: :boom: :red_circle: :boom: :red_circle: :boom: :red_circle:
 
 Due to maintenance reasons I have moved each of these Plugins to a single Repository. You find the new locations below. The obsolete versions will be kept here, but not further developed. Feel free to head over to the new ones.
 
@@ -26,8 +26,7 @@ Due to maintenance reasons I have moved each of these Plugins to a single Reposi
 
 ## Show Next Master
 :point_right: [Displays the next Master in the currently active edit view.](https://github.com/DeutschMark/Show-Next-Master) :point_left:
-<img src="https://raw.githubusercontent.com/DeutschMark/Show-Next-Master/master/Screenshots/Show%20Next%20Master%2001.png?raw=true" align="left" width="250" display="inline-block">
-----
+
 
 ## Show Kerning Group Reference
 :point_right: [Live preview of the kerning group reference glyph next to the current one.](https://github.com/DeutschMark/Show-Kerning-Group-Reference) :point_left:
