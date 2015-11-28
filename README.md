@@ -1,12 +1,11 @@
 # Glyphsapp-Plugins
 Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @DeutschMark. Detailed information inside the readme of each plugin.
 
-#### :no_entry_sign: :large_orange_diamond: ATTENTION :large_orange_diamond: :no_entry_sign:
-+ :boom: :red_circle: :boom: :red_circle: :boom: :red_circle: :boom: :red_circle: :boom: :red_circle: :boom: :red_circle: :boom: :red_circle: :boom: :red_circle:
-
+#### :construction: :no_entry_sign: :large_orange_diamond: ATTENTION :large_orange_diamond: :no_entry_sign: :construction:
+:red_circle: :boom: :red_circle: :boom: 
 Due to maintenance reasons I have moved each of these Plugins to a single Repository. You find the new locations below. The obsolete versions will be kept here, but not further developed. Feel free to head over to the new ones.
+:red_circle: :boom: 
 
-+ :boom: + :boom: + :boom: + :boom: + :boom: + :boom: + :boom: + :boom: +
 
 ## Show Smart Plumplines
 :point_right: [Live Guidelines at Center of Objects.](https://github.com/DeutschMark/Show-Smart-Plumblines) :point_left:
