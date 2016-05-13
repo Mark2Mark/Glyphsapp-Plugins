@@ -9,6 +9,7 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Deu
 
 ## Show Smart Plumblines
 :point_right: [Live Guidelines at Center of Objects.](https://github.com/DeutschMark/Show-Smart-Plumblines) :point_left:
+<img src="https://raw.githubusercontent.com/Mark2Mark/Glyphsapp-Plugins/Screenshots/Screenshots/SmartPlumblines/SmPlL%2012.png?raw=true" alt="Smart Plumblines" width="80 px">
 
 
 ## Uncover xHeight
