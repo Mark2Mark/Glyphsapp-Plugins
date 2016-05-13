@@ -46,3 +46,6 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 <img src="https://github.com/Mark2Mark/Glyphsapp-Plugins/raw/Screenshots/ShowNodeCount/Screenshots/ShowNodeCount_Mark-Froemberg.gif?raw=true" alt="Show Node Count" height="250 px">
 ### :point_right: [Show Node Count](https://github.com/Mark2Mark/Show-Node-Count)
 
+---
+<img src="https://github.com/Mark2Mark/Reporter-Toggler/raw/master/Screenshots/ReporterToggler%2001.png" alt="Reporter Toggler" height="250 px">
+### :point_right: [Reporter Toggler](https://github.com/Mark2Mark/Reporter-Toggler)
