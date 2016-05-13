@@ -1,18 +1,16 @@
 # Glyphsapp-Plugins
 
-Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @DeutschMark. Detailed information inside the readme of each plugin.
+Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mark2Mark.
 
 
 ---
-###### :x: :construction: :no_entry_sign: :large_orange_diamond: ATTENTION :large_orange_diamond: :no_entry_sign: :construction: :x: Due to maintenance reasons I have moved each of these Plugins to a single Repository. You find the new locations below. The obsolete versions will be kept here, but not further developed. Feel free to head over to the new ones.
+### This is just an overview of the single Repos for all Plugins.
 ---
 
+
+<img src="https://raw.githubusercontent.com/Mark2Mark/Glyphsapp-Plugins/Screenshots/Screenshots/SmartPlumblines/SmPlL%2012.png?raw=true" alt="Smart Plumblines" height="250 px">
+### [Show Smart Plumblines](https://github.com/Mark2Mark/Show-Smart-Plumblines)
 ---
-<img src="https://raw.githubusercontent.com/Mark2Mark/Glyphsapp-Plugins/Screenshots/Screenshots/SmartPlumblines/SmPlL%2012.png?raw=true" alt="Smart Plumblines" height="200 px">
-### Show Smart Plumblines
-:point_right: [Live Guidelines at Center of Objects.](https://github.com/DeutschMark/Show-Smart-Plumblines) :point_left:
-
-
 
 ## Uncover xHeight
 :point_right: [Wraps everything beyond the xHeight in black.](https://github.com/DeutschMark/Uncover-xHeight) :point_left:
