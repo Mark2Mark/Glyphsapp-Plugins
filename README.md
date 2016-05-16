@@ -11,6 +11,10 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 ### :point_right: [Kernkraft](https://github.com/carrois/Kernkraft/)
 
 ---
+<img src="https://raw.githubusercontent.com/Mark2Mark/Show-Stems/master/Images/Show%20Stems%2001.gif" alt="Smart Plumblines" height="250 px">
+### :point_right: [Show Stems](https://github.com/Mark2Mark/Show-Stems)
+
+---
 <img src="https://raw.githubusercontent.com/Mark2Mark/Glyphsapp-Plugins/Screenshots/Screenshots/SmartPlumblines/SmPlL%2012.png?raw=true" alt="Smart Plumblines" height="250 px">
 ### :point_right: [Show Smart Plumblines](https://github.com/Mark2Mark/Show-Smart-Plumblines)
 
