@@ -57,3 +57,6 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 ---
 ### :point_right: [Synced Tabs](https://github.com/Mark2Mark/SyncedTabs)
 
+---
+### :point_right: [Arrange Windows](https://github.com/Mark2Mark/ArrangeWindows)
+<img src="https://raw.githubusercontent.com/Mark2Mark/ArrangeWindows/master/ArrangeWindows.gif" alt="Reporter Toggler" height="250 px">
