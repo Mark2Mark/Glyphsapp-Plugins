@@ -7,7 +7,7 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 ### This is just an overview of the single Repos for all Plugins.
 
 ---
-### :point_right: [Kernkraft](https://github.com/carrois/Kernkraft/)
+### :point_right: [Kernkraft & Kernschmelze](https://github.com/carrois/Kernkraft/)
 <img src="https://raw.githubusercontent.com/carrois/Kernkraft/master/Kernkraft%2001.png" alt="Smart Plumblines" height="450 px">
 
 ---
