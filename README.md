@@ -8,7 +8,9 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 
 ---
 ### :point_right: [Kernkraft & Kernschmelze](https://github.com/carrois/Kernkraft/)
+<p align="center"> 
 <img src="https://raw.githubusercontent.com/carrois/Kernkraft/master/Kernkraft%2001.png" alt="Smart Plumblines" height="550 px">
+</p> 
 
 ---
 ### :point_right: [Show Stems](https://github.com/Mark2Mark/Show-Stems)
