@@ -15,7 +15,7 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 ---
 ### :point_right: [Show Stems](https://github.com/Mark2Mark/Show-Stems)
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/Mark2Mark/Show-Stems/master/Images/Show%20Stems%2001.gif" alt="Smart Plumblines" height="">
+<img src="https://raw.githubusercontent.com/Mark2Mark/Show-Stems/master/Images/Show%20Stems%2001.gif" alt="Smart Plumblines" height="300px">
 </p> 
   
 ---
@@ -54,7 +54,7 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 ---
 ### :point_right: [Show Distance and Angle](https://github.com/Mark2Mark/Show-Distance-And-Angle-Of-Nodes)
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/Mark2Mark/Show-Distance-And-Angle-Of-Nodes/master/Screenshots/Distance_And_Angle_01.png?raw=true" alt="Show Distance and Angle" height="">
+<img src="https://raw.githubusercontent.com/Mark2Mark/Show-Distance-And-Angle-Of-Nodes/master/Screenshots/Distance_And_Angle_01.png?raw=true" alt="Show Distance and Angle" height="350px">
 </p>
 
 ---
