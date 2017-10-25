@@ -12,18 +12,18 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 
 ---
 ### :point_right: [Show Stems](https://github.com/Mark2Mark/Show-Stems)
-<img src="https://raw.githubusercontent.com/Mark2Mark/Show-Stems/master/Images/Show%20Stems%2001.gif" alt="Smart Plumblines" height="350 px">
+<img src="https://raw.githubusercontent.com/Mark2Mark/Show-Stems/master/Images/Show%20Stems%2001.gif" alt="Smart Plumblines" height="450 px">
 
 ---
 ### :point_right: [Synced Tabs](https://github.com/Mark2Mark/SyncedTabs) **Best Tool Ever, it just has no screenshot**
 
 ---
 ### :point_right: [Arrange Windows](https://github.com/Mark2Mark/ArrangeWindows)
-<img src="https://raw.githubusercontent.com/Mark2Mark/ArrangeWindows/master/ArrangeWindows.gif" alt="Reporter Toggler" height="250 px">
+<img src="https://raw.githubusercontent.com/Mark2Mark/ArrangeWindows/master/ArrangeWindows.gif" alt="Reporter Toggler" height="350 px">
 
 ---
 ### :point_right: [Show Smart Plumblines](https://github.com/Mark2Mark/Show-Smart-Plumblines)
-<img src="https://raw.githubusercontent.com/Mark2Mark/Glyphsapp-Plugins/Screenshots/Screenshots/SmartPlumblines/SmPlL%2012.png?raw=true" alt="Smart Plumblines" height="250 px">
+<img src="https://raw.githubusercontent.com/Mark2Mark/Glyphsapp-Plugins/Screenshots/Screenshots/SmartPlumblines/SmPlL%2012.png?raw=true" alt="Smart Plumblines" height="350 px">
 
 ---
 ### :point_right: [Blindfold](https://github.com/Mark2Mark/Blindfold)
@@ -51,7 +51,7 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 
 ---
 ### :point_right: [Show Label Color](https://github.com/Mark2Mark/Show-Label-Color)
-<img src="https://raw.githubusercontent.com/Mark2Mark/Show-Label-Color/d054d4d05d6f16b2be49f055f2b06b27725b81c8/Screenshots/Show%20Label%20Color%2001.png?raw=true" alt="Show Label Color" height="250 px">
+<img src="https://raw.githubusercontent.com/Mark2Mark/Show-Label-Color/d054d4d05d6f16b2be49f055f2b06b27725b81c8/Screenshots/Show%20Label%20Color%2001.png?raw=true" alt="Show Label Color" height="350 px">
 
 ---
 ### :point_right: [Show Node Count](https://github.com/Mark2Mark/Show-Node-Count)
