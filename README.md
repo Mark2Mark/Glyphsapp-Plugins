@@ -12,7 +12,7 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 
 ---
 ### :point_right: [Show Stems](https://github.com/Mark2Mark/Show-Stems)
-<img src="https://raw.githubusercontent.com/Mark2Mark/Show-Stems/master/Images/Show%20Stems%2001.gif" alt="Smart Plumblines" height="450 px">
+<img src="https://raw.githubusercontent.com/Mark2Mark/Show-Stems/master/Images/Show%20Stems%2001.gif" alt="Smart Plumblines" height="">
 
 ---
 ### :point_right: [Synced Tabs](https://github.com/Mark2Mark/SyncedTabs) **Best Tool Ever, it just has no screenshot**
