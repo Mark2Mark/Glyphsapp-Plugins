@@ -15,6 +15,13 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 <img src="https://raw.githubusercontent.com/Mark2Mark/Show-Stems/master/Images/Show%20Stems%2001.gif" alt="Smart Plumblines" height="350 px">
 
 ---
+### :point_right: [Synced Tabs](https://github.com/Mark2Mark/SyncedTabs) **Best Tool Ever, it just has no screenshot**
+
+---
+### :point_right: [Arrange Windows](https://github.com/Mark2Mark/ArrangeWindows)
+<img src="https://raw.githubusercontent.com/Mark2Mark/ArrangeWindows/master/ArrangeWindows.gif" alt="Reporter Toggler" height="250 px">
+
+---
 ### :point_right: [Show Smart Plumblines](https://github.com/Mark2Mark/Show-Smart-Plumblines)
 <img src="https://raw.githubusercontent.com/Mark2Mark/Glyphsapp-Plugins/Screenshots/Screenshots/SmartPlumblines/SmPlL%2012.png?raw=true" alt="Smart Plumblines" height="250 px">
 
@@ -53,10 +60,3 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 ---
 ### :point_right: [Reporter Toggler](https://github.com/Mark2Mark/Reporter-Toggler)
 <img src="https://github.com/Mark2Mark/Reporter-Toggler/raw/master/Screenshots/ReporterToggler%2001.png" alt="Reporter Toggler" height="250 px">
-
----
-### :point_right: [Synced Tabs](https://github.com/Mark2Mark/SyncedTabs) **Best Tool Ever, it just has no screenshot**
-
----
-### :point_right: [Arrange Windows](https://github.com/Mark2Mark/ArrangeWindows)
-<img src="https://raw.githubusercontent.com/Mark2Mark/ArrangeWindows/master/ArrangeWindows.gif" alt="Reporter Toggler" height="250 px">
