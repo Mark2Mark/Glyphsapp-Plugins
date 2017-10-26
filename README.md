@@ -7,6 +7,13 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 ### This is just an overview of the single Repos for all Plugins.
 
 ---
+### :point_right: [Skedge](https://github.com/Mark2Mark/Skedge)
+<p align="center"> 
+<img src="https://github.com/Mark2Mark/Skedge/blob/master/Images/Skedge%201%20-%20Plumblines%20720.gif?raw=true" alt="Skedge" height="">
+</p> 
+
+
+---
 ### :point_right: [Kernkraft & Kernschmelze](https://github.com/carrois/Kernkraft/)
 <p align="center"> 
 <img src="https://raw.githubusercontent.com/carrois/Kernkraft/master/Kernkraft%2001.png" alt="Smart Plumblines" height="550 px">
