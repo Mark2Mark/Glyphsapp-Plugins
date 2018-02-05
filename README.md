@@ -95,5 +95,5 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 ---
 ### :point_right: [Reporter Toggler](https://github.com/Mark2Mark/Reporter-Toggler)
 <p align="center"> 
-<img src="https://github.com/Mark2Mark/Reporter-Toggler/raw/master/Screenshots/ReporterToggler%2002.png" alt="Reporter Toggler" height="450 px">
+<img src="https://github.com/Mark2Mark/Reporter-Toggler/blob/master/Images/ReporterToggler%2002.png" alt="Reporter Toggler" height="450 px">
 </p>
