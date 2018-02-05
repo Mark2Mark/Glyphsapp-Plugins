@@ -77,7 +77,7 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 ---
 ### :point_right: [Show Next Master](https://github.com/Mark2Mark/Show-Next-Master)
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/DeutschMark/Show-Next-Master/master/Screenshots/Show%20Next%20Master%2001.png?raw=true" alt="Show Next Master" height="300px">
+<img src="https://github.com/Mark2Mark/Show-Next-Master/blob/master/Images/Show%20Next%20Master%2001.png" alt="Show Next Master" height="300px">
 </p>
 
 ---
