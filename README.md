@@ -30,7 +30,7 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 </p> 
   
 ---
-### :point_right: [Synced Tabs](https://github.com/Mark2Mark/SyncedTabs) **Beste**
+### :point_right: [Synced Tabs](https://github.com/Mark2Mark/SyncedTabs)
 <p align="center">
 <img src="https://raw.githubusercontent.com/Mark2Mark/Synced-Tabs/master/Images/SynchedTabs_Gintronic_MarkFroemberg.gif" alt="Synched Tabs" height="">
 </p> 
