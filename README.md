@@ -19,7 +19,7 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 
 ---
 <h2 align="center"> 
-## :point_right: [Kernkraft & Kernschmelze](https://github.com/carrois/Kernkraft/)
+<a href="https://github.com/carrois/Kernkraft/">:point_right: [Kernkraft & Kernschmelze]</a>
 </h2>
 <p align="center"> 
 <img src="https://raw.githubusercontent.com/carrois/Kernkraft/master/Kernkraft%2001.png" alt="Smart Plumblines" height="550 px">
