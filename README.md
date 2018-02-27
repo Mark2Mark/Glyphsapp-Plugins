@@ -88,7 +88,7 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
   <a href="https://github.com/Mark2Mark/Show-Distance-And-Angle-Of-Nodes">:point_right: Show Distance and Angle :point_left:</a>
 </h2>
 <p align="center"> 
-<img src="https://github.com/Mark2Mark/Show-Distance-And-Angle-Of-Nodes/blob/master/Images/Distance_And_Angle_01.png" alt="Show Distance and Angle" height="350px">
+<img src="https://raw.githubusercontent.com/Mark2Mark/Show-Distance-And-Angle-Of-Nodes/40229b6cd64bca593a2990a9c40e2b355fdc3c42/Images/ShowDistanceAndAngle01.gif" alt="Show Distance and Angle">
 </p>
 
 ---
