@@ -15,7 +15,7 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
   <a href="https://github.com/Mark2Mark/Skedge">:point_right: Skedge :point_left:</a>
 </h2>
 <p align="center"> 
-<img src="https://github.com/Mark2Mark/Skedge/blob/master/Images/Skedge%201%20-%20Plumblines%20720.gif?raw=true" alt="Skedge" height="">
+<img src="https://raw.githubusercontent.com/Mark2Mark/Skedge/master/Images/Skedge%2002.gif" alt="Skedge" height="">
 </p> 
 
 
