@@ -72,7 +72,7 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
   <a href="https://github.com/Mark2Mark/Show-Rotated">:point_right: Show Rotated :point_left:</a>
 </h2>
 <p align="center"> 
-<img src="https://github.com/Mark2Mark/Glyphsapp-Plugins/raw/Screenshots/ShowRotated/Screenshots/ShowRotated03_Mark-Froemberg.gif?raw=true" alt="Show Rotated" height="">
+<img src="https://raw.githubusercontent.com/Mark2Mark/Show-Rotated/master/Images/ShowRotated%2002.gif" alt="Show Rotated" height="">
 </p>
 
 ---
