@@ -26,7 +26,7 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 ---
 ### :point_right: [Show Stems](https://github.com/Mark2Mark/Show-Stems)
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/Mark2Mark/Show-Stems/master/Images/Show%20Stems%2001.gif" alt="Smart Plumblines" height="500px">
+<img src="https://raw.githubusercontent.com/Mark2Mark/Show-Stems/34aab48c73865552364065665c5d45eb860b18e0/Images/ShowStems2018%2001.gif" alt="Smart Plumblines" height="500px">
 </p> 
   
 ---
