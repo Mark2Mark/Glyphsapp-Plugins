@@ -93,14 +93,6 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 
 ---
 <h2 align="center"> 
-  <a href="https://github.com/Mark2Mark/Show-Kerning-Group-Reference">:point_right: Show Kerning Groups :point_left:</a>
-</h2>
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/Mark2Mark/Show-Kerning-Group-Reference/12fd9ffaa0447f742dabce60a407ece582e1d6b2/Screenshots/KGR%2001.png?raw=true" alt="Show Kerning Group" height="">
-</p>
-
----
-<h2 align="center"> 
   <a href="https://github.com/Mark2Mark/Show-Label-Color">:point_right: Show Label Color :point_left:</a>
 </h2>
 <p align="center"> 
@@ -109,18 +101,26 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 
 ---
 <h2 align="center"> 
-  <a href="https://github.com/Mark2Mark/Show-Node-Count">:point_right: Show Node Count :point_left:</a>
-</h2>
-<p align="center"> 
-<img src="https://github.com/Mark2Mark/Glyphsapp-Plugins/raw/Screenshots/ShowNodeCount/Screenshots/ShowNodeCount_Mark-Froemberg.gif?raw=true" alt="Show Node Count" height="">
-</p>
-
----
-<h2 align="center"> 
   <a href="https://github.com/Mark2Mark/Reporter-Toggler">:point_right: Reporter Toggler :point_left:</a>
 </h2>
 <p align="center"> 
 <img src="https://github.com/Mark2Mark/Reporter-Toggler/blob/master/Images/ReporterToggler%2002.png" alt="Reporter Toggler" height="450 px">
+</p>
+
+---
+<h2 align="center"> 
+  <a href="https://github.com/Mark2Mark/Show-Kerning-Group-Reference">:point_right: Show Kerning Groups :point_left:</a>
+</h2>
+<p align="center"> 
+<img src="https://raw.githubusercontent.com/Mark2Mark/Show-Kerning-Group-Reference/12fd9ffaa0447f742dabce60a407ece582e1d6b2/Screenshots/KGR%2001.png?raw=true" alt="Show Kerning Group" height="">
+</p>
+
+---
+<h2 align="center"> 
+  <a href="https://github.com/Mark2Mark/Show-Node-Count">:point_right: Show Node Count :point_left:</a>
+</h2>
+<p align="center"> 
+<img src="https://github.com/Mark2Mark/Glyphsapp-Plugins/raw/Screenshots/ShowNodeCount/Screenshots/ShowNodeCount_Mark-Froemberg.gif?raw=true" alt="Show Node Count" height="">
 </p>
 
 ---
