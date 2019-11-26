@@ -59,6 +59,15 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 <img src="https://raw.githubusercontent.com/Mark2Mark/Glyphsapp-Plugins/Screenshots/Screenshots/SmartPlumblines/SmPlL%2012.png?raw=true" alt="Smart Plumblines" height="">
 </p>
 
+
+---
+<h2 align="center">
+  <a href="https://github.com/Mark2Mark/Presenter-Free">:point_right: Presenter :point_left:</a>
+</h2>
+<p align="center">
+<img src="https://raw.githubusercontent.com/Mark2Mark/Presenter-Free/master/images/Presenter-000-markFromberg.png?raw=true" alt="Presenter" height="">
+</p>
+
 ---
 <h2 align="center">
   <a href="https://github.com/Mark2Mark/Blindfold">:point_right: Blindfold :point_left:</a>
