@@ -139,3 +139,53 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 <p align="center">
 <img src="https://github.com/Mark2Mark/Show-Next-Master/blob/master/Images/Show%20Next%20Master%2001.png" alt="Show Next Master" height="300px">
 </p>
+
+
+
+
+# Glyphsapp-Plugins
+Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @DeutschMark. Detailed information inside the readme of each plugin.
+
+#### Siblings
+Superimposes shape groups for the current glyph as a drawing reference.
+
+#### Distance And Angle
+Shows the direct distance of two selected Elements (Nodes, Anchors, Components) and their angle.
+
+#### Next Master
+Displays the next Master in the currently active edit view.
+
+#### Kerning Group Reference
+Live preview of the kerning group reference glyph next to the current one.
+
+#### Rotated
+Displays the current letter as a 180° rotated version of itself. Symmetry helper.
+
+#### Node Count
+A little number in the edit view which keeps track of the current glyphs’s count of nodes.
+
+### How to use
+
+Download or clone this whole `Glyphsapp-Plugins` repo (it is filled up with more plugins every now and then) and copy the `*.glyphsReporter` file(s) into your Glyphsapp Plugins folder (eg. `/Library/Application\ Support/Glyphs/Plugins`), or double click the plugin and confirm the dialogue in Glyphsapp. In any case you need to restart Glyphs with each update of your plugins. Select them from the View menu, they are called something like `Show Siblings`. If you want to set shortcuts, do so in the OSX settings by calling them by their exact name.
+
+
+### TODO
+
+Update Binaries 2021-02-08 to fix Python crashes in Glyphs 3
+
+- [x] Arrange Windows
+- [x] Blindfold
+- [ ] ~~Reporter Toggler~ (Obj-C)
+- [x] Show Distance and Angle
+- [x] Show Kerning Group Reference (didn’t touch since years, but Georg maintained)
+- [x] Show Label Color
+- [x] Show Node Count
+- [x] Show Siblings (didn’t touch since years)
+- [x] Show Smart Plumblines
+- [x] Stem Rhythm (unpublished for G3)
+- [x] Show Stems (light)
+- [x] Skedge
+- [x] SyncTabs (glyphsPlugin) // was this bad? I see there’s an Xcode version now.
+- [x] Kernkraft
+
+- [x] (Show Rotated – has many new features locally, not published yet)
