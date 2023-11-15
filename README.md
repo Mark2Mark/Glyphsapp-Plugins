@@ -147,21 +147,10 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 
 ### TODOs
 
-Update Binaries 2021-02-08 to fix Python crashes in Glyphs 3
+Update Binaries for Glyphs 3
 
-- [x] Arrange Windows
-- [x] Blindfold
-- [ ] ~~Reporter Toggler~ (Obj-C)
-- [x] Show Distance and Angle
-- [x] Show Kerning Group Reference (didn’t touch since years, but Georg maintained)
-- [x] Show Label Color
-- [x] Show Node Count
-- [x] Show Siblings (didn’t touch since years)
-- [x] Show Smart Plumblines
-- [x] Stem Rhythm (unpublished for G3)
-- [x] Show Stems (light)
-- [x] Skedge
-- [x] SyncTabs (glyphsPlugin) // was this bad? I see there’s an Xcode version now.
-- [x] Kernkraft
+- [x] Show Next Master
 
-- [x] (Show Rotated – has many new features locally, not published yet)
+Update Plugins
+
+- [] Show Rotated – has many new features locally, not published yet
