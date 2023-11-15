@@ -153,4 +153,4 @@ Update Binaries for Glyphs 3
 
 Update Plugins
 
-- [] Show Rotated – has many new features locally, not published yet
+- [ ] Show Rotated – has many new features locally, not published yet
