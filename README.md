@@ -134,7 +134,7 @@ Plugins for Glyphsapp by [Mark Frömberg](http://www.markfromberg.com/) aka @Mar
 
 ---
 <h2 align="center">
-  <a href="https://github.com/Mark2Mark/https://github.com/Mark2Mark/Show-Next-Master">:point_right: Show Next Master :point_left:</a>
+  <a href="https://github.com/Mark2Mark/Show-Next-Master">:point_right: Show Next Master :point_left:</a>
 </h2>
 <p align="center">
 <img src="https://github.com/Mark2Mark/Show-Next-Master/blob/master/Images/Show%20Next%20Master%2001.png" alt="Show Next Master" height="300px">
